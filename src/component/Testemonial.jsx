@@ -7,7 +7,7 @@ function TestimonialCards() {
       name: 'ROTINA',
       image: '../src/assets/Testimonial.png',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.',
+        'mcorper scelerisque mi, in malesuada felis malesuada vel.',
     },
     {
       id: 2,

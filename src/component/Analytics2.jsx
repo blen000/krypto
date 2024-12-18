@@ -7,7 +7,7 @@ function Analytics2() {
         <div className="flex flex-row items-center justify-center space-x-4 mx-auto px-5 lg:px-10 py-10 lg:py-20 lg:mt-5">
             {/* Text Section */}
                   <div className="text-section w-2/5 lg:w-2/5   ">
-                  <p className='mb-5 uppercase text-teal-400 text-l lg:text-xl'>Analytics</p>
+                  <p className='mb-5 uppercase text-teal-400 text-l lg:text-xl'>Analytics jgvab</p>
                     <h1 className="text-xl lg:text-5xl text-gradient font-bold ">
                      Built-In Analytics To<br /> Track Your NFTs
                     </h1>
