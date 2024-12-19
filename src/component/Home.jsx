@@ -1,9 +1,15 @@
 import React from 'react';
+import { useEffect, useState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import Trust from './Trust';
+import Analytics from './Analytics';
+import Analytics2 from './Analytics2';
+import Testemonial from './Testemonial';
 
 function Home() {
   return (
+    <>
     <div className="flex flex-row items-center justify-center space-x-4 mx-auto px-5 lg:px-10 py-10 lg:py-20 mt-20  lg:mt-5">
       {/* Text Section */}
       <div className="text-section w-2/5 lg:w-2/5 mt-10 lg:mt-0">
@@ -38,6 +44,12 @@ function Home() {
         />
       </div>
     </div>
+        <Trust/>
+        <Analytics/>
+        <Analytics2/>
+        <Testemonial/>
+        
+    </>
   );
 }
 

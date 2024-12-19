@@ -13,16 +13,22 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-[#050031] w-full flex items-center shadow-md fixed top-0 z-40 h-24 px-6 lg:px-20">
+    <nav className="bg-[#050031] w-full flex items-center shadow-md fixed top-0 z-40 h-24 px-6 lg:px-20 border-b border-b-blue-900 border-b-1">
       {/* Logo */}
       <div className="flex-shrink-0 ml-20">
-        <Link to="/" className="text-gradient text-3xl font-bold uppercase text-white">
+        <Link to="/Home" className="text-gradient text-3xl font-bold uppercase text-white">
           Krypto
         </Link>
       </div>
 
       {/* Navigation Links */}
       <div className="hidden md:flex items-center ml-auto mr-20 gap-10">
+      <Link
+          to="/Home"
+          className="text-white text-xl hover:text-purple-800 uppercase font-medium transition duration-300"
+        >
+          Home
+        </Link>
         <Link
           to="/About"
           className="text-white text-xl hover:text-purple-800 uppercase font-medium transition duration-300"
@@ -83,6 +89,9 @@ const NavBar = () => {
         className={`${isMenuOpen ? "block" : "hidden"} md:hidden absolute top-24 left-0 w-full bg-[#050031]`}
       >
         <div className="flex flex-col items-center gap-6 py-4">
+        <Link to="/Home" className="text-white text-lg uppercase" onClick={closeMenu}>
+            Home
+          </Link>
           <Link to="/About" className="text-white text-lg uppercase" onClick={closeMenu}>
             About
           </Link>
@@ -92,7 +101,7 @@ const NavBar = () => {
           <Link to="/Contact" className="text-white text-lg uppercase" onClick={closeMenu}>
             Contact
           </Link>
-          <Link to="/BuyNFTs" className="text-white text-lg uppercase" onClick={closeMenu}>
+          <Link to="/BuyNFT" className="text-white text-lg uppercase" onClick={closeMenu}>
             Buy NFTs
           </Link>
         </div>

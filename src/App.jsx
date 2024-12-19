@@ -1,24 +1,26 @@
 import React from 'react'
 import Home from './component/Home'
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import Trust from './component/Trust';
-import Analytics from './component/Analytics';
-import Analytics2 from './component/Analytics2';
-import Testemonial from './component/Testemonial';
+import { Routes, Route } from 'react-router-dom';
 import NavBar from './component/NavBar';
 import Footer from './component/Footer';
+import About from './component/About';
+import Pricing from './component/Pricing';
+import BuyNFT from './component/BuyNFT';
+import Contact from './component/Contact';
 
   function App() {
     return (
       <div>
         <NavBar/>
-        <Home/>
-        <Trust/>
-        <Analytics/>
-        <Analytics2/>
-        <Testemonial/>
+        <Routes>
+          <Route path="/Home" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Pricing" element={<Pricing />} />
+          <Route path="/BuyNFT" element={<BuyNFT />} />
+          <Route path="/Contact" element={<Contact />} />
+        </Routes>
         <Footer/>
+        
       </div>
     );
   }
