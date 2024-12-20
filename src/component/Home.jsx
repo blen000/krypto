@@ -6,6 +6,7 @@ import Trust from './Trust';
 import Analytics from './Analytics';
 import Analytics2 from './Analytics2';
 import Testemonial from './Testemonial';
+import Video from './video';
 
 function Home() {
   return (
@@ -48,6 +49,7 @@ function Home() {
         <Analytics/>
         <Analytics2/>
         <Testemonial/>
+        <Video/>
         
     </>
   );

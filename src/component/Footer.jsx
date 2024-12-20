@@ -14,8 +14,8 @@ const Footer = () => {
           <ul className="space-y-2">
           <a href="/home" ><li>Home</li></a>
           <a href="/About" ><li>About</li></a>
-          <a href="/Buy NFTs" ><li>Buy NFTs</li></a>
-          <a href="/Buy NFTs" ><li>Sell NFTs</li></a>
+          <a href="/Contact" ><li>Contact</li></a>
+          <a href="/BuyNFT" ><li>Buy NFT</li></a>
           </ul>
         </div>
 

@@ -48,7 +48,7 @@ const NavBar = () => {
           Contact
         </Link>
         <Link
-          to="/BuyNFTs"
+          to="/BuyNFT"
           className="text-white text-xl hover:text-purple-800 uppercase font-medium transition duration-300"
         >
           Buy NFTs

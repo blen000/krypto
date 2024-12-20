@@ -1,6 +1,5 @@
 import React from "react";
-// import  {car7} from '../assets/images'
-import { Link } from "react-router-dom";
+
 
 const About = () => {
   return (
@@ -12,13 +11,11 @@ const About = () => {
               <h1 className="text-3xl sm:text-4xl text-center font-bold font-serif">
                 About us
               </h1>
-              <p className="leading-8 p-8 text-justify bg-[#908CCE]">
+              <p className="leading-8 p-8 text-justify bg-[#050031] lg:mx-60 ">
               Our company stands at the forefront of the cryptocurrency revolution, leveraging cutting-edge blockchain technology to provide innovative financial solutions. Founded on the principles of transparency, decentralization, and security, we aim to empower individuals and businesses in the digital economy.
               A future where cryptocurrency adoption is universal, financial systems are inclusive, and blockchain technology drives global innovation.
               To democratize access to financial tools and create a seamless bridge between traditional finance and the decentralized world. We strive to enable users to manage, invest, and transact with digital assets confidently and securely
-              Our company stands at the forefront of the cryptocurrency revolution, leveraging cutting-edge blockchain technology to provide innovative financial solutions. Founded on the principles of transparency, decentralization, and security, we aim to empower individuals and businesses in the digital economy.
-              A future where cryptocurrency adoption is universal, financial systems are inclusive, and blockchain technology drives global innovation.
-              To democratize access to financial tools and create a seamless bridge between traditional finance and the decentralized world. We strive to enable users to manage, invest, and transact with digital assets confidently and securely
+              Our company stands at the forefront of the cryptocurrency revolution, leveraging cutting-edge blockchain technology to provide innovative financial solutions. 
               </p>
               </div>
             
