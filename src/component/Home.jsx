@@ -11,7 +11,7 @@ import Video from './video';
 function Home() {
   return (
     <>
-    <div className="flex flex-row items-center justify-center space-x-4 mx-auto px-5 lg:px-10 py-10 lg:py-20 mt-20  lg:mt-5">
+    <div className="flex flex-row items-center justify-center space-x-4 mx-auto px-5 lg:px-10 py-10 lg:py-20 mt-20  lg:mt-5 custom-bg">
       {/* Text Section */}
       <div className="text-section w-2/5 lg:w-2/5 mt-10 lg:mt-0">
         <h1 className="text-4xl lg:text-6xl font-bold text-gradient font-mono">

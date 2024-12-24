@@ -17,3 +17,7 @@
     background: var(--background);
     
   }
+  .custom-bg{
+    /* background: radial-gradient(circle at top left, rgba(107, 114, 128, 0.5), rgba(30, 26, 85, 0.8), #050031); */
+    background: radial-gradient(circle at top left, rgba(107, 114, 128, 0.5), rgba(5, 0, 49, 0.8), #050031);
+  }
