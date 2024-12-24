@@ -22,13 +22,13 @@ function Home() {
         </p>
         <div className="flex mt-20">
           <Link
-            to="/BuyNFTs"
+            to="/BuyNFT"
             className="flex items-center justify-center h-12 mainbtn p-4 px-6 bg-indigo-400 text-white rounded-full shadow-lg hover:bg-teal-300 transition"
           >
             BUY NFTs
           </Link>
           <Link
-            to="/"
+            to="/BuyNFT"
             className="flex items-center justify-center h-12 mainbtn p-4 px-6 border border-teal-300 rounded-full text-white shadow-lg ml-4 hover:bg-teal-300 transition"
           >
             SELL NFTs

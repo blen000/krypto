@@ -7,6 +7,8 @@ import About from './component/About';
 import Pricing from './component/Pricing';
 import BuyNFT from './component/BuyNFT';
 import Contact from './component/Contact';
+import DaySeven from './component/DaySeven';
+import Viewmore from './component/Viewmore';
 
   function App() {
     return (
@@ -18,6 +20,8 @@ import Contact from './component/Contact';
           <Route path="/Pricing" element={<Pricing />} />
           <Route path="/BuyNFT" element={<BuyNFT />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/DaySeven" element={<DaySeven />} />
+          <Route path="/Viewmore" element={<Viewmore />} />
         </Routes>
         <Footer/>
         

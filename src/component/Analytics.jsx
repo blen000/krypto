@@ -24,7 +24,7 @@ function Analytics() {
         </p>
         <div className="flex mt-10">
           <Link
-            to="pricing"
+            to="/pricing"
             className="flex items-center justify-center h-12 mainbtn p-4 px-6 bg-indigo-400 text-white shadow-lg hover:bg-teal-300 transition rounded-full ml-10 text-l lg:text-xl"
           >
             VIEW OUR PRICING

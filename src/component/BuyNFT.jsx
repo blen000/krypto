@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
+import DaySeven from "../component/DaySeven";
 
 const BuyNFT = () => {
   const [spendAmount, setSpendAmount] = useState(0);
@@ -100,14 +102,25 @@ const BuyNFT = () => {
             <h3 className="text-red-500 text-lg">-8.05%</h3>
           </div>
           <div className="flex space-x-4">
-            {["1D", "7D", "1M", "3M", "1Y"].map((label) => (
+            <Link 
+            to="/BuyNFT" 
+            className="px-4 py-2 text-sm rounded-lg bg-[#7D7ED6] hover:bg-teal-400 focus:outline-none">
+              1D
+              </Link>
+              <Link 
+            to="/DaySeven" 
+            className="px-4 py-2 text-sm rounded-lg bg-[#7D7ED6] hover:bg-teal-400 focus:outline-none">
+              7D
+              </Link>
+            {/* {["1D", "7D", "1M", "3M", "1Y"].map((label) => (
               <button
                 key={label}
                 className="px-4 py-2 text-sm rounded-lg bg-[#7D7ED6] hover:bg-teal-400 focus:outline-none"
               >
                 {label}
               </button>
-            ))}
+              // <button>hell</button>
+            ))} */}
           </div>
         </div>
 
@@ -118,7 +131,7 @@ const BuyNFT = () => {
               <svg className="h-full w-full">
                 {/* Sample chart line */}
                 <polyline
-                  points="0,160 50,100 100,120 150,80 200,100 250,50 300,90 350,40 400,80 450,30,100,"
+                  points="0,160 50,100 100,120 150,80 200,100 250,50 300,90 350,40 400,80 450,30,100"
                   fill="none"
                   stroke="teal"
                   strokeWidth="2"

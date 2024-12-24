@@ -53,6 +53,12 @@ const NavBar = () => {
         >
           Buy NFTs
         </Link>
+        <Link
+          to="/Viewmore"
+          className="text-white text-xl hover:text-purple-800 uppercase font-medium transition duration-300"
+        >
+          View More
+        </Link>
       </div>
 
       {/* Mobile Menu Button */}
@@ -103,6 +109,9 @@ const NavBar = () => {
           </Link>
           <Link to="/BuyNFT" className="text-white text-lg uppercase" onClick={closeMenu}>
             Buy NFTs
+          </Link>
+          <Link to="/Viewmore" className="text-white text-lg uppercase" onClick={closeMenu}>
+            View More
           </Link>
         </div>
       </div>
