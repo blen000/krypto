@@ -1,26 +1,26 @@
 import React from 'react';
-import { Testemonial } from '../assets/Image';
+import { person, person2, Testimonial } from '../assets/Image';
 
 function TestimonialCards() {
   const testimonials = [
     {
       id: 1,
       name: 'ROTINA',
-      image: '../src/assets/Testimonial.png',
+      image: {Testimonial},
       description:
         'mcorper scelerisque mi, in malesuada felis malesuada vel.',
     },
     {
       id: 2,
       name: 'HELEN',
-      image: '../src/assets/person.jfif',
+      image: {person},
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.',
     },
     {
       id: 3,
       name: 'JUSTIN',
-      image: '../src/assets/person2.jfif',
+      image: {person2},
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.',
     },
@@ -38,7 +38,7 @@ function TestimonialCards() {
             {/* Profile Image */}
             <div className="absolute -top-10">
               <img
-                src={Testemonial}
+                src={Testimonial}
                 alt={item.name}
                 className="w-20 h-20 rounded-full border-4 border-gray-800"
               />
