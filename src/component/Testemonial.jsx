@@ -6,21 +6,21 @@ function TestimonialCards() {
     {
       id: 1,
       name: 'ROTINA',
-      image: {Testimonial},
+      image: Testimonial,
       description:
         'mcorper scelerisque mi, in malesuada felis malesuada vel.',
     },
     {
       id: 2,
       name: 'HELEN',
-      image: {person},
+      image: person,
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.',
     },
     {
       id: 3,
       name: 'JUSTIN',
-      image: {person2},
+      image: person2,
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.',
     },
@@ -38,7 +38,7 @@ function TestimonialCards() {
             {/* Profile Image */}
             <div className="absolute -top-10">
               <img
-                src={Testimonial}
+                src={item.image}
                 alt={item.name}
                 className="w-20 h-20 rounded-full border-4 border-gray-800"
               />
