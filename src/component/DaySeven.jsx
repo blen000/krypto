@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from "react";
 import { Link } from 'react-router-dom';
+import { e1 } from '../assets/Image';
 
 const DaySeven = () => {
     const [spendAmount, setSpendAmount] = useState(0);
@@ -92,7 +93,7 @@ const DaySeven = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <img
-                  src="../src/assets/e1.png"
+                  src={e1}
                   alt="Ethereum Logo"
                   className="h-8 w-8"
                 />

@@ -1,6 +1,6 @@
 import React from "react";
 import { Tabs } from "../component/ui/tabs"; // Adjust the import based on your folder structure
-import Btc3 from "../assets/Btc3.jpg"
+// import Btc3 from "../assets/Btc3.jpg"
 
 export function ViewMore() {
   const tabs = [

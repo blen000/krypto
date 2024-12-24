@@ -7,6 +7,7 @@ import Analytics from './Analytics';
 import Analytics2 from './Analytics2';
 import Testemonial from './Testemonial';
 import Video from './video';
+import { hero } from '../assets/Image';
 
 function Home() {
   return (
@@ -39,7 +40,7 @@ function Home() {
       {/* Image Section */}
       <div className="image-section w-2/5 lg:w-2/5 mt-10 lg:mt-0 flex justify-center lg:mr-10 ">
         <img
-          src="../src/assets/hero.png"
+          src={hero}
           alt="Hero Section"
           className="w-full max-w-sm lg:max-w-lg"
         />

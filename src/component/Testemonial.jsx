@@ -1,4 +1,5 @@
 import React from 'react';
+import { Testemonial } from '../assets/Image';
 
 function TestimonialCards() {
   const testimonials = [
@@ -37,7 +38,7 @@ function TestimonialCards() {
             {/* Profile Image */}
             <div className="absolute -top-10">
               <img
-                src={item.image}
+                src={Testemonial}
                 alt={item.name}
                 className="w-20 h-20 rounded-full border-4 border-gray-800"
               />

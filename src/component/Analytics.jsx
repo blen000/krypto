@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import { Two } from '../assets/Image';
 
 function Analytics() {
   return (
@@ -8,7 +9,7 @@ function Analytics() {
          {/* Image Section */}
      <div className="image-section w-2/5 lg:w-2/5 mt-10 lg:mt-10 flex justify-center lg:mr-10 ">
         <img
-          src="../src/assets/2nd.png"
+          src={Two}
           alt="Hero Section"
           className="w-full max-w-sm lg:max-w-lg"
         />
