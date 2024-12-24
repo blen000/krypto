@@ -24,7 +24,7 @@ const NavBar = () => {
       {/* Navigation Links */}
       <div className="hidden md:flex items-center ml-auto mr-20 gap-10">
       <Link
-          to="/Home"
+          to="/"
           className="text-white text-xl hover:text-purple-800 uppercase font-medium transition duration-300"
         >
           Home
