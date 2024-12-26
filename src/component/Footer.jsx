@@ -1,26 +1,30 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0a0a23] text-white py-10 border-t border-t-blue-900 border-b-1">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4">
-        {/* Section 1 - Logo */}
-        <a href="/home" >
-            <h1 className="text-3xl ml-4 lg:ml-40" >KRYPTO</h1>
-        </a>
+    <footer className="bg-[#0a0a23] text-white py-10 border-t border-t-blue-900">
+      <div className="container mx-auto grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
+        {/* Section 1 - Logo and Tag */}
+        <div className="text-center col-span-2 sm:col-span-1">
+          <a href="/home" className="block">
+            <h1 className="text-3xl font-bold">KRYPTO</h1>
+          </a>
+          <p className="mt-2">Your go-to marketplace for NFTs.</p>
+        </div>
+
         {/* Section 2 - Navigation */}
-        <div>
-          <h3 className="font-semibold mb-4">krypto</h3>
+        <div className="text-center">
+          <h3 className="font-semibold mb-4">Krypto</h3>
           <ul className="space-y-2">
-          <a href="/home" ><li>Home</li></a>
-          <a href="/About" ><li>About</li></a>
-          <a href="/Contact" ><li>Contact</li></a>
-          <a href="/BuyNFT" ><li>Buy NFT</li></a>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/About">About</a></li>
+            <li><a href="/Contact">Contact</a></li>
+            <li><a href="/BuyNFT">Buy NFT</a></li>
           </ul>
         </div>
 
         {/* Section 3 - Market */}
-        <div>
+        <div className="text-center">
           <h3 className="font-semibold mb-4">Market</h3>
           <ul className="space-y-2">
             <li>Browse NFTs</li>
@@ -30,8 +34,8 @@ const Footer = () => {
         </div>
 
         {/* Section 4 - Contact */}
-        <div>
-          <h3 className="font-semibold mb-4">contact</h3>
+        <div className="text-center">
+          <h3 className="font-semibold mb-4">Contact</h3>
           <ul className="space-y-2">
             <li>Email</li>
             <li>LinkedIn</li>
@@ -43,7 +47,7 @@ const Footer = () => {
 
       {/* Newsletter Section */}
       <div className="mt-10 text-center">
-        <h3 className="font-semibold mb-4">join our newsletter</h3>
+        <h3 className="font-semibold mb-4">Join Our Newsletter</h3>
         <div className="flex justify-center">
           <input
             type="email"

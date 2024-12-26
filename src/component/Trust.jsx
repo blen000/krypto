@@ -3,7 +3,7 @@ import { logos } from '../assets/Image'
 
 function Trust() {
   return (
-    <div className='mt-10 mx-20 lg:mx-40 '>
+    <div className='mt-10 mx-5 lg:mx-40 '>
         <img
           src={logos}
           alt="Sponsors"

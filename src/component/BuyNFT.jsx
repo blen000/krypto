@@ -15,7 +15,7 @@ const BuyNFT = () => {
   };
 
   return (
-    <div className="min-h-screen text-white pt-40">
+    <div className="min-h-screen text-white pt-40 mx-5">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-8">Buy NFT</h1>
 
