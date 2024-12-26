@@ -15,7 +15,7 @@ import Viewmore from './component/Viewmore';
       <div>
         <NavBar/>
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Pricing" element={<Pricing />} />
           <Route path="/BuyNFT" element={<BuyNFT />} />
