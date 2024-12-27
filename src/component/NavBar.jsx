@@ -111,7 +111,7 @@ const NavBar = () => {
       >
         <div className="flex flex-col items-center gap-6 py-4">
           <Link
-            to="/Home"
+            to="/"
             className="text-white text-lg uppercase"
             onClick={closeMenu}
           >
